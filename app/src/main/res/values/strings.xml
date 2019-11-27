@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Learn C++</string>
+    <string name="pengantar1">C++ diciptakan oleh Bjarne Stroustrup di laboratorium Bell pada
+        awal tahun 1980-an, sebagai pengembangan dari bahasa C dan
+        Simula. Saat ini, C++ merupakan salah satu bahasa yang paling
+        populer untuk pengembangan software berbasis OOP.
+    </string>
+    <string name="pengantar2">Kompiler untuk C++ telah banyak beredar di pasaran. Software
+        developer yang paling diminati adalah Borland Inc. dan Microsoft
+        Corp. Produk dari Borland untuk kompiler C++ adalah Turbo
+        C++, Borland C++, Borland C++ Builder. Sedangkan dari
+        Microsoft adalah Ms. Visual C++.
+    </string>
+    <string name="pengantar3">Walaupun banyak kompiler yang tersedia, namun pada intinya
+        bahasa pemrograman yang dipakai adalah C++.
+    </string>
+    <string name="pengantar4">Sebelum mulai melakukan kode program, sebaiknya diingat
+        bahwa C++ bersifat “case sensitive”, yang artinya huruf
+        besar dan huruf kecil dibedakan.
+    </string>
+    <string name="struktur1">Cara terbaik untuk balajar bahasa pemrograman adalah dengan
+        langsung mempraktikannya. Cobalah contoh program berikut :
+    </string>
+    <string name="struktur2">Program di atas, misalnya dapat disimpan dengan nama
+        latih1.cpp. Cara untuk menyimpan dan mengkompile program
+        berbeda-beda, tergantung kompiler yang dipakai.
+    </string>
+    <string name="struktur3">Ketika di-run, maka di layar akan muncul sebuah tulisan
+        “Selamat Belajar C++”. Contoh di atas, adalah sebuah contoh
+        program sederhana menggunakan C++. Namun, penggalan
+        program tersebut telah menyertakan sintak-sintak dasar bahasa
+        C++. Sintak dasar tersebut, akan kita bahas satu per satu:
+    </string>
+    <string name="struktur4">merupakan sebuah baris komentar. Semua baris, yang ditandai
+        dengan dua buah tanda slash (//), akan dianggap sebagai baris
+        komentar dan tidak akan berpengaruh pada hasil
+    </string>
+    <string name="struktur5">Biasanya, baris komentar dipakai oleh programmer untuk
+        memberikan penjelasan tentang program.
+    </string>
+    <string name="struktur6">Baris komentar dalam C++, selain ditandai dengan (//) juga dapat
+        ditandai dengan (/*….*/).
+    </string>
+    <string name="struktur7">Perbedaan mendasar dari keduanya adalah :</string>
+    <string name="struktur10">pernyataan yang diawali dengan tanda (#) merupakan pernyataan
+        untuk menyertakan preprocessor. Pernyataan ini bukan untuk
+        dieksekusi. #include iostream.h berarti memerintahkan
+        kompiler untuk menyertakan file header iostream.h. Dalam file
+        header ini, terdapat beberapa fungsi standar yang dipakai dalam
+        proses input dan output. Seperti misalnya perintah cout yang
+        dipakai dalam program utama.
+    </string>
+    <string name="struktur11">Baris ini menandai dimulainya kompiler akan mengeksekusi
+        program. Atau dengan kata lain, pernyataan main sebagai
+        penanda program utama. Adalah suatu keharusan, dimana sebuah
+        program yang ditulis dalam bahasa C++ memiliki sebuah main
+    </string>
+    <string name="struktur12">main diikuti oleh sebuah tanda kurung () karena main merupakan
+        sebuah fungsi. Dalam bahasa C++ sebuah fungsi harus diikuti
+        dengan tanda (), yang nantinya dapat berisi argumen. Dan sintak
+        formalnya, sebuah fungsi dimulai
+        dengan tanda {}, seperti dalam contoh program.
+    </string>
+    <string name="struktur13">perintah ini merupakan hal yang akan dieksekusi oleh compiler dan
+        merupakan perintah yang akan dikerjakan. cout termasuk dalam file
+        iostream. cout merupakan perintah untuk menampilkan ke layer.
+    </string>
+    <string name="struktur14">Perlu diingat, bahwa setiap pernyataan dalam C++ harus
+        diakhiri dengan tanda semicolon (;) untuk memisahkan antara
+        pernyataan satu dengan pernyataan lainnya.
+    </string>
+    <string name="struktur15">pernyataan return akan menyebabkan fungsi main() menghentikan
+        program dan mengembalikan nilai kepada main. Dalam hal ini,
+        yang dikembalikan adalah nilai 0. Mengenai pengembalian nilai,
+        akan dijelaskan nanti mengenai Fungsi dalam C++.
+    </string>
+    <string name="struktur16">Coba tambahkan sebaris pernyataan lagi, sehingga program
+        contoh di atas akan menjadi seperti berikut:
+    </string>
+    <string name="struktur17">Maka perintah cout yang kedua akan menampilkan sebuah
+        kalimat lagi di layar, dengan tulisan “di kampusku”.
+    </string>
+    <string name="variabel1">Berbeda dengan pendeklarasian variabel di bahasa pemrograman
+        lain, dalam C++ sebelum mendeklarasikan variabel, hal pertama
+        yang harus dideklarasikan adalah tipe data yang akan digunakan
+        untuk menampung data.
+    </string>
+    <string name="variabel2">atau dapat juga pemberian nilai awal untuk variable dilakukan
+        pada saat deklarasi,
+    </string>
+    <string name="variable3">Jika hendak mendeklarasikan beberapa variabel sekaligus dengan
+        tipe data yang sama, dapat dilakukan dengan 2 cara, yaitu :
+    </string>
+    <string name="output1">Operator ini dikenal sebagai insertion operator yang memberikan
+        perintah kepada cout. Untuk contoh pertama, kalimat yang akan
+        di cetak di layar di apit oleh tanda “ “ karena berupa string.
+        Sedangkan untuk contoh kedua dan ketiga, tanpa tanda “ ”, karena
+        yang akan ditampilkan ke layar bukan berupa string ataupun karakter
+    </string>
+    <string name="inputan1">Untuk menerima inputan dengan perintah cin, maka operator yang
+        akan digunakan adalah overloaded operator (>>) dan diikuti oleh
+        variable tempat menyimpan inputan data. Seperti contoh
+    </string>
+    <string name="inputan2">cin hanya dapat diproses setelah penekanan tombol ENTER.
+        Jadi, walaupun hanya satu karakter yang dimasukkan, sebelum
+        penekanan Enter, cin tidak akan merespon apa-apa.
+    </string>
+    <string name="inputan3">kedua pernyataan di atas, jika dijalankan akan meminta dua kali
+        inputan data. Satu untuk variable a dan satunya lagi adalah untuk
+        variable b. Dan untuk pemasukan datanya dipisahkan dengan
+        pemisah, misalnya dengan Spasi, Tab atau Enter.
+    </string>
+    <string name="kondisi1">kondisi adalah ekspresi yang akan dibandingkan. Jika kondisi
+        bernilai benar, maka pernyataan akan dijalankan. Namun, jika
+        kondisi bernilai salah, maka pernyataan akan diabaikan
+    </string>
+    <string name="kondisi2">Jika menginginkan lebih dari sebuah pernyataan yang dijalankan,
+        ketika
+        kondisi terpenuhi maka blok instruksi harus menyertakan tanda {
+        dan }.
+    </string>
+    <string name="kondisi3">Bila menginginkan sesuatu dijalankan ketika kondisi tidak
+        terpenuhi, dapat ditambahkan keyword else.
+        Sintaknya adalah :
+    </string>
+
+    <string name="kondisi4">Pernyataan if…else… dapat terdiri dari beberapa else. Pada
+        contoh berikut, program akan memberikan jawaban terhadap
+        inputan data, apakah berupa nilai positif, negative atau nol :
+    </string>
+    <string name="loop1">Sebuah atau beberapa pernyataan akan dijalankan secara
+        berulang-ulang, selama kondisi terpenuhi.
+    </string>
+    <string name="loop2">pernyataan akan dijalankan selama ekspresi/kondisi bernilai
+        true.
+    </string>
+    <string name="loop3">Dalam kondisi ini, terdapat 2 kemungkinan :
+        a. true : lakukan pernyataan (langkah 3)
+        b. false : lompati pernyataan (lanjutkan ke langkah 5..)
+    </string>
+    <string name="loop4">Konsep do…while mirip dengan while. Namun pernyataan
+        akan dijalankan terlebih dahulu sebelum pengecekan kondisi.
+        Untuk lebih jelasnya, perhatikan contoh berikut:
+    </string>
+    <string name="loop5">Pernyataan akan diulangi jika kondisi bernilai true. Sama
+        seperti perulangan dengan while. Namun for menetapkan
+        inisialisasi dan penaikan berada dalam ( dan ).
+    </string>
+    <string name="loop6">1) Inisialisasi: akan dieksekusi. Biasanya merupakan
+        variable yang akan dipakai sebagai counter atau
+        pencacah. Bagian ini akan dieksekusi hanya sekali.
+    </string>
+    <string name="loop7">2) Kondisi: akan diperiksa, jika bernilai true maka
+        perulangan akan dilanjutkan dan jika bernilai false
+        maka perulangan akan dilewati
+    </string>
+    <string name="loop8">3) Pernyataan: akan dieksekusi. Biasanya dapat terdiri
+        dari sebuah instruksi atau blok instruksi yang berada
+        di antara { dan}
+    </string>
+    <string name="loop9">4) Terakhir, apapun perintah dalam counter akan
+        dijalankan dan kemudian perulangan kembali lagi ke
+        langkah 2.
+    </string>
+    <string name="loop10">Inisialisasi dan Counter adalah optional atau dapat ditiadakan.
+        Namun tidak demikian dengan tanda semicolon (;). Misalnya
+        kita dapat menuliskan: for(;n(lebih kecil)10;) jika tanpa inisialisasi dan
+        tanpa penaikan, atau for(;n(lebih besar)10;n++) jika tanpa inisialisasi
+        namun tetap menggunakan penaikan.
+    </string>
+    <string name="loop11">Perulangan bertumpuk secara sederhana dapat diartikan : terdapat
+        satu atau lebih loop di dalam sebuah loop. Banyaknya tingkatan
+        perulangan, tergantung dari kebutuhan.
+    </string>
+    <string name="loop12">Biasanya, nested loops digunakan untuk membuat aplikasi
+        matematika yang menggunakan baris dan kolom. Loop luar,
+        biasanya digunakan untuk mendefinisikan baris. Sedangkan loop
+        dalam, digunakan untuk mendefinisikan kolom. contoh :
+    </string>
+    <string name="about">aplikasi di perentukan untuk programer pemula untuk belajar C++</string>
+    <string name="about1">Alamat di Kota Batu Kelurahan Sisir , Jalan Bejo Nomor 1A</string>
+
+</resources>

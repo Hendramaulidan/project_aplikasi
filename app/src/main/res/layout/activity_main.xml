@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/image"
+        android:background="@drawable/background_art2"
+        tools:ignore="InvalidId">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lets Learn C++"
+            android:textSize="40sp"
+            android:layout_margin="16dp"
+            android:textColor="#D1D4FD"
+            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click Learn to Continue"
+            android:textSize="30dp"
+            android:textColor="#F8E0E0"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:background="#00FFFFFF">
+        <Button
+                android:id="@+id/btnlearn"
+                android:theme="@style/CardView.Dark"
+                android:layout_marginTop="24dp"
+                android:text="learn"
+                android:textColor="#FFFFFF"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"/>
+        <Button
+                android:id="@+id/btnprofil"
+                android:layout_marginTop="20sp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="#00FFFFFF"
+                android:textColor="#FFFFFF"
+                android:text="about"
+                android:layout_gravity="center"/>
+        <ImageView
+                android:onClick="tekanTombol"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/cpp_logo"
+                android:id="@+id/btnChange"/>
+    </LinearLayout>
+</LinearLayout>

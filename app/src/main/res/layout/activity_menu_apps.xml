@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_art2"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  tools:ignore="MissingConstraints" android:id="@+id/linearLayout">
+        <TextView android:layout_width="match_parent"
+                  android:text="Click the Button to continue"
+                  android:textSize="30dp"
+                  android:fontFamily="casual"
+                  android:gravity="center"
+                  android:textColor="#FFFBFB"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:layout_marginTop="70dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    android:id="@+id/btnIntro"
+                    android:text="intro C++"/>
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:id="@+id/btnStruktur"
+                    android:text="Struktur"
+            />
+
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="type data"
+                    android:id="@+id/btnTypeData"/>
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="variable"
+                    android:id="@+id/btnVar"/>
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="Output (cout)"
+                    android:id="@+id/btnOut"/>
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="Input (cin)"
+                    android:id="@+id/btnIn"
+            />
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="KONTROL KONDISI"
+                    android:id="@+id/btnCon"/>
+            <Button
+                    android:layout_marginTop="30sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:background="#1BFFFBFB"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:text="PERULANGAN (loops)"
+                    android:id="@+id/btnLoop"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_art3"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  tools:ignore="MissingConstraints">
+        <TextView android:layout_width="match_parent"
+                  android:text="type Data"
+                  android:textSize="30dp"
+                  android:fontFamily="casual"
+                  android:gravity="center"
+                  android:textColor="#FFFBFB"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terdapat 5 tipe data bawaan dari bahasa C, yaitu :"
+                    android:textColor="#F7FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="12dp"/>
+
+            <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_height="wrap_content"
+                    android:text="void,integer, float, double, dan char. "
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="12dp"/>
+
+            <ImageView android:layout_width="300dp"
+                       android:layout_gravity="center"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/typedata1"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Sedangkan C++ sendiri menambahkan dua buah tipe data lagi,yakni :"
+                      android:fontFamily="sans-serif"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text=" bool dan wchar_t."
+                      android:fontFamily="sans-serif-black"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="300dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="@drawable/typedata2"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Dengan jangkauannya adalah sebagai berikut : "
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="300dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="@drawable/typedata3"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

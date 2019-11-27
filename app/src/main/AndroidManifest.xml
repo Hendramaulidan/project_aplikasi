@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hendra.learnc">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".about_programer">
+        </activity>
+        <activity android:name=".looping_C">
+        </activity>
+        <activity android:name=".Condition_C">
+        </activity>
+        <activity android:name=".Input_c">
+        </activity>
+        <activity android:name=".Output_C">
+        </activity>
+        <activity android:name=".Variable_c">
+        </activity>
+        <activity android:name=".TypeData">
+        </activity>
+        <activity android:name=".StrukturC">
+        </activity>
+        <activity android:name=".introc">
+        </activity>
+        <activity android:name=".about_me">
+        </activity>
+        <activity android:name=".menu_apps">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

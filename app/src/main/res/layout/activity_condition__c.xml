@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_art3"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  tools:ignore="MissingConstraints">
+        <TextView android:layout_width="match_parent"
+                  android:text="Seleksi Kondisional( if …else…) "
+                  android:textSize="30dp"
+                  android:fontFamily="casual"
+                  android:gravity="center"
+                  android:textColor="#FFFBFB"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pengantar1"
+                    android:textColor="#F7FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="12dp"/>
+
+            <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_height="wrap_content"
+                    android:text="Format penulisannya : "
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="12dp"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="if (kondisi) pernyataan; "
+                      android:fontFamily="sans-serif-black"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/kondisi1"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Contoh pernyataan berikut akan menampilkan tulisan x adalah 100 apabila x bernilai 100:"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/kondisi1"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/kondisi2"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/kondisi2"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/kondisi3"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/kondisi3"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/kondisi4"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:textColor="#FFFFFF"
+                      android:fontFamily="sans-serif"
+                      android:textSize="20dp"
+                      android:layout_marginBottom="12dp"/>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/kondisi5"
+                       android:layout_marginBottom="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
